@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(14, 14, 14);
+    color: #fafafa;
+}
+#login{
+	position: relative;
+}
+.login-logo{
+    margin-bottom: 20px;
+}
+form{
+	color: inherit;
+	background-color: inherit;
+}
+.input-group-addon>i{
+	color: #fafafa;
+}
+h2{
+	padding-bottom: 20px;
+	margin: 0;
+}

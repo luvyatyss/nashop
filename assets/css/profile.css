@@ -1,0 +1,21 @@
+#profile{
+	padding: 0;
+}
+h1{
+	padding: 0;
+	margin-top: 0;
+	color: inherit;
+}
+form{
+	padding-bottom: 20px;
+}
+.header{
+	padding-left: 15px;
+}
+#link-changePassWord{
+	color: #1ECC9D;
+}
+#link-changePassWord:hover,
+#link-changePassWord:focus {
+	color: #fafafa;
+}

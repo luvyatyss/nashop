@@ -1,0 +1,389 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+    color: #000;
+    min-height: 750px;
+    padding-bottom: 20px;
+}
+/*=================FOOTER======================*/
+footer{
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    -webkit-box-shadow: 0px 5px 29px 3px rgba(16, 12, 20,0.85);
+    -moz-box-shadow: 0px 5px 29px 3px rgba(16, 12, 20,0.85);
+    box-shadow: 0px 5px 29px 3px rgba(16, 12, 20,0.85);
+    padding-bottom: 15px;
+    color: #fff;
+}
+/*=================/FOOTER======================*/
+/*============Logo============*/
+.navbar-brand{
+    padding: 5px 20px 5px;
+}
+.navbar-brand img{
+    height: 47px;
+}
+#main-content{
+    min-height: 500px;
+    position: relative;
+}
+.page-container.horizontal-menu header.navbar{
+    background-color: #100C14;
+}
+.page-container.horizontal-menu header.navbar .navbar-nav > li ul{
+    background-color: #100C14;
+    color: #FFF;
+}
+.page-container.horizontal-menu header.navbar .navbar-nav > li ul li a:hover{
+    background-color: #1F1F22;
+}
+.page-container.horizontal-menu header.navbar .navbar-nav > li.active > a {
+    background-color: #000;
+    color: #FFF;
+}
+.page-container.horizontal-menu header.navbar .navbar-nav > li ul li.active > a {
+    background-color: #000;
+    color: #FFF;
+}
+.page-container.horizontal-menu header.navbar .navbar-inner > ul > li#search,
+.page-container.horizontal-menu header.navbar > ul > li#search {
+    background-color: #1D191E;
+}
+
+.page-header{
+    margin: 15px 0;
+    border-bottom: none;
+    vertical-align: middle;
+    padding: 0;
+}
+.page-header h1{
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+.page-header .breadcrumb{
+    display: inline-block;
+}
+.breadcrumb>.active {
+    color: #5D5D86;
+}
+.breadcrumb {
+
+}
+/*=========FORM=========*/
+@media (max-width: 980px) {
+    .form-horizontal .form-group.inline>div:first-child{
+        margin-bottom: 20px;
+    }
+}
+input.number {
+    text-align: right;
+}
+/*=========/FORM=========*/
+
+/*=========BUTTON=========*/
+.btn{
+    padding:7px;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.btn-default{
+    color: #fafafa;
+    background-color: #1D191E;
+    border-color: #515151;
+}
+.btn-primary{
+    color: #fff;
+    background-color: rgb(0, 160, 79);
+    border-color: #1BC589;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-primary:hover,
+.btn-primary:focus{
+    opacity: 0.65;
+}
+.btn-default:hover,
+.btn-default:focus{
+    color: #fafafa;
+    background-color: #343433;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+    color: #fff;
+    background-color: rgb(5, 165, 85);
+    border-color: #1BC589;
+}
+.btn-modify-group .btn{
+    font-size: 12px;
+    padding: 5px;
+    margin-right: 2px;
+}
+
+.btn-update{
+    background-color: rgba(22, 97, 185, 0.79);
+}
+.btn-delete{
+    background-color: rgba(243, 78, 78, 0.88);
+}
+.btn-info,
+.btn-info:hover{
+    background-color: rgba(0, 0, 0, 0.87);
+    border: none;
+}
+
+/*======/BUTTON=====*/
+
+
+/*======PANEL=====*/
+.panel {
+    border: 1px solid  #E1C9E7;
+}
+.panel-default{
+
+}
+.panel-default > .panel-heading{
+    padding: 5px 15px;
+    font-size: 20px;
+    -webkit-box-shadow: 0px -2px 2px 0px rgba(54,40,54,1);
+    -moz-box-shadow: 0px -2px 2px 0px rgba(54,40,54,1);
+    box-shadow: 0px -2px 2px 0px rgba(54,40,54,1);
+    background-color: #fff;
+}
+
+/*======/PANEL=====*/
+
+
+/*======TABLE=====*/
+.dataTables_wrapper {
+}
+.dataTables_wrapper>.row {
+    padding: 10px;
+}
+.dataTables_wrapper table + .row {
+    margin-bottom: 0;
+}
+
+.dataTables_wrapper .pagination{
+    margin: 0;
+}
+table>thead>tr>.action,
+table>tbody>tr>.action{
+    width: 12%;
+}
+
+.table > thead,
+.table > tfoot{
+    background-color: #5D5D86;
+    color: #FFF;
+    font-weight: bold;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th, 
+.table-bordered > tfoot > tr > th, 
+.table-bordered > thead > tr > td, 
+.table-bordered > tbody > tr > td, 
+.table-bordered > tfoot > tr > td {
+    border: 1px solid rgba(0, 0, 0, 0.15);;
+    color: rgba(57, 52, 62, 0.9);
+    vertical-align: middle;
+}
+.table-bordered > thead > tr > th, 
+.table-bordered > thead > tr > td{
+    background-color: inherit;
+    color:  inherit;
+    font-weight: bold;
+}
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td {
+    background-color: inherit;
+    color: inherit;
+    font-weight: bold;
+}
+table>tbody>tr:nth-child(even){
+    background-color: #C7C7E8;
+}
+table>tbody>tr:nth-child(odd){
+    background-color: #fff;
+}
+/*======/TABLE=====*/
+
+
+/*=============/MODAL POPUP=============*/
+/*=====TOOLTIP=======*/
+.tooltip{
+	font-size:10px;
+}
+.tooltip.top .tooltip-arrow{
+	border-top-color: #0C70FC;
+}
+.tooltip-inner {
+    background-color: #0C70FC;
+}
+/*=====/TOOLTIP=======*/
+
+
+/*===========EDITOR===========*/
+.note-toolbar .btn{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    margin: 0;
+}
+.note-toolbar .btn-default{
+    background-color: #fff;
+    color: #000;
+    border-color: #ccc;
+}
+.form-group .panel{
+    margin-bottom: 0;
+}
+/*===========/EDITOR===========*/
+/*===========CHECKBOX RADIO===========*/
+input[type="radio"], input[type="checkbox"] {
+    margin: 2px 0 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="radio"],
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+input[type="checkbox"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+    position: relative;
+    width: 13px;
+    width: 16px \0;
+    height: 13px;
+    height: 16px \0;
+    -webkit-appearance: none;
+    background: white;
+    border: 1px solid #dcdcdc;
+    border: 1px solid transparent \0;
+    border-radius: 1px;
+}
+
+input[type="radio"]:checked,
+.radio input[type="radio"]:checked,
+.radio-inline input[type="radio"]:checked,
+input[type="checkbox"]:checked,
+.checkbox input[type="checkbox"]:checked,
+.checkbox-inline input[type="checkbox"]:checked {
+    background: #fff;
+}
+
+input[type="checkbox"]:checked::after,
+.checkbox input[type="checkbox"]:checked::after,
+.checkbox-inline input[type="checkbox"]:checked::after {
+    position: absolute;
+    top: -6px;
+    left: -5px;
+    display: block;
+    content: url('../images/checkmark.png');
+}
+/*===========/CHECKBOX RADIO===========*/
+/*============FILE INPUT=================*/
+.btn-file{
+    position: relative;;
+}
+.btn-file>input[type="file"]{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}
+
+/*============CHECK VALIDATE============*/
+label.error{
+    color: rgba(243, 78, 78, 0.88);
+    font-weight:normal;
+    margin-top: 10px;
+}
+label.error:before{
+    content: '';
+    padding-right: 23px;
+    padding-top: 1px;
+    background: url(../../../assets/images/error-16.png) no-repeat;
+}
+input.error{
+    border : 1px solid  rgba(243, 78, 78, 0.88);
+    background-color: rgba(0,0,0,0);
+}
+input:focus.error {
+    border : 1px solid  rgba(243, 78, 78, 0.88);
+    background-color: rgba(0,0,0,0);
+}
+.note:before{
+    content: '*';
+    padding-right: 5px;
+    color: #EB2D2D;
+}
+/*============Paging============*/
+table .pagination > li > a,
+table .pagination > li > span {
+    background-color: inherit;
+    color: #fff;
+    border: none;
+}
+table .pagination > li > a:hover,
+table .pagination > li > a:focus,
+table .pagination > li > span:hover,
+table .pagination > li > span:focus{
+    background-color: inherit;
+    opacity: 0.8;
+}
+
+table .pagination > .disabled > span,
+table .pagination > .disabled > span:hover,
+table .pagination > .disabled > span:focus,
+table .pagination > .disabled > a,
+table .pagination > .disabled > a:hover,
+table .pagination > .disabled > a:focus {
+     color: #999;
+     background-color: inherit;
+ }
+/*============/Paging============*/
+
+/*============Tabs============*/
+.nav-tabs.bordered + .tab-content{
+    padding: 30px;
+    border: none;
+}
+
+/*============Data============*/
+#dataContent #mainData{
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/*============/Data============*/
+
+.datepicker-days table> tbody > tr:nth-child(2n) {
+    background-color: #FFF;
+}
+/*============Login form============*/
+.login-page {
+    background-color: #0E0B11;
+}
+
+.login-page .login-header {
+    background: #100C14;
+}
+.login-page .login-header.login-caret:after {
+    border-color: #100C14 transparent transparent transparent;
+}
+.login-page .btn-primary {
+    background-color: #0E0B11;
+    border-color: #2B2233;
+}
+.login-page .login-form .form-group .input-group {
+    background: #0E0B11;
+    border: 1px solid #2B2233;
+}
+/*============Login form============*/

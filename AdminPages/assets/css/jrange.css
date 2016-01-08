@@ -1,0 +1,10 @@
+/*============JRange============*/
+.slider-container .back-bar .pointer-label {
+    font-size: 10px;
+    color: inherit;
+    background: transparent;
+}
+.slider-container .scale ins {
+    font-size: 9px;
+    color: inherit;
+}

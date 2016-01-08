@@ -1,0 +1,43 @@
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+	vertical-align: middle;
+} 
+.table-bordered>thead>tr>td, 
+.table-bordered>thead>tr>th {
+	border-bottom: none;
+}
+.table > tfoot {
+	font-weight: bold;
+	color: rgb(231, 33, 33);
+	font-size: 15px;
+}
+#shopping-cart{
+	padding: 15px;
+	padding-top: 0;
+}
+#shopping-cart form{
+	background-color: inherit;
+	color: #716E6B;
+}
+h1{
+	padding: 0;
+}
+.table-bordered>thead
+{
+	/*background-color: rgba(0,0,0,0.8);
+	color:#fafafa;*/
+}
+.input-group{
+	max-width: 150px;
+}
+.order-quantity i{
+	padding: 0;
+/*	color: #fff; */
+}
+#modifyAll .btn{
+	padding-right: 5px;
+}

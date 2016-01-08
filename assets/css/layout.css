@@ -1,0 +1,197 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+i{
+    padding-right: 7px;
+    color: #1ECC9D;
+}
+
+#page{
+    /*background: url(../imgs/bg-top.png) repeat-x 0 0 transparent;*/
+}
+/* ============HEADER==========*/
+header{
+    background-color: #000;
+}
+/* ============TOP HEADER==========*/
+
+/*USER-COMMAND*/
+#user-command ul{
+    position: relative;
+}
+#user-command ul>li{
+    display: inline-block;
+}
+#user-command li>a{	
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 7px;
+    border-right:1px solid #393939;
+    margin-left: 1px;
+    -webkit-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+    -moz-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+    box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+} 
+#user-command li>a:focus, 
+#user-command li>a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #1ECC9D;
+}
+/* ============/TOP HEADER==========*/
+/* ============NAVIGATION==========*/
+.navbar{
+    margin-bottom:  0;
+    border-radius: 0;
+    border:  none;
+}
+.navbar-default{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-default .navbar-nav li>a{
+    color: #EDEDED;
+    text-align: center;
+}
+.navbar-default .navbar-nav li>a:hover{
+    color: #C9C9C9;
+    background-color: #262626;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #101010;
+    color: #EDEDED;
+}
+.navbar-default .navbar-collapse, 
+.navbar-default .navbar-form {
+    border-color: #3d3d3d; 
+}
+@media (max-width: 767px){
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-collapse{
+        padding: 0;
+    }
+    .navbar-default .navbar-nav li>a{
+        border-bottom: 1px solid #393939;
+        -webkit-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+        -moz-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+        box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.1);
+    }
+    .navbar-default .navbar-nav li:last-child>a{
+        border-bottom: none;
+    }
+}
+/*Danh cho media Phone Table*/
+.navbar-default #mainMenuTabletPhone .navbar-nav>.open>a,
+.navbar-default #mainMenuTabletPhone .navbar-nav>.open>a:focus,
+.navbar-default #mainMenuTabletPhone .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: rgba(0, 160, 79, 0.79);
+}
+/* ============/NAVIGATION==========*/
+/* ============/HEADER==========*/
+
+/*==================CONTENT=====================*/
+/*======SIDE-BAR=======*/
+aside{
+
+}
+aside>div{
+    margin-left: -15px;
+}
+aside>div:last-child{
+    border-top: none;
+}
+aside .cat-product-item{
+    display: block;
+    line-height: 40px;
+    background-color: #EFEFEF;
+    text-decoration: none;
+    padding-left: 30px;
+    color: #000;
+    text-transform: uppercase;
+}
+.cat-product>div:last-child .cat-product-item{
+
+}
+.cat-product-item:focus,
+.cat-product-item:hover {
+    background-color: rgb(68, 68, 68);
+    color: #fff;
+    cursor: pointer;
+}
+
+aside .list-group-item{
+    padding-left: 30px;
+}
+/*======/SIDE-BAR=======*/
+.list-group-item:first-child{
+    border-radius: 0;
+}.list-group-item:last-child {
+    border-radius: 0;
+}
+.list-group-item.active, 
+.list-group-item.active:focus, 
+.list-group-item.active:hover {
+    background-color: rgba(68, 68, 68, 0.75);
+    border: none;
+}
+.list-group-item i{
+    font-size: 4px;
+    margin-right: 10px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+    color: rgb(0, 0, 0);
+}
+/*======MAINT-CONTENT=======*/
+#content{
+    margin-bottom:50px;
+}
+#main-content{
+
+}
+#main-content .row{
+    margin-left: 0;
+}
+#main-content .box-top{
+    padding-left: 40px;
+}
+
+/*======/MAINT-CONTENT=======*/
+/*=================/CONTENT=====================*/
+
+/*=================FOOTER======================*/
+footer{
+    background-color: rgba(0, 0, 0, 1);
+    position: relative;
+    -webkit-box-shadow: 0px 5px 29px 3px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 5px 29px 3px rgba(0,0,0,0.85);
+    box-shadow: 0px 5px 29px 3px rgba(0,0,0,0.85);
+    padding-top:45px;
+    padding-bottom: 15px;
+    color: #fff;
+}
+footer  img {
+    height:54px;
+    margin-right:50px;
+    /*border:#CCCCCC 1px solid;*/
+    padding:3px;
+}
+#SliderBrand {
+    position: absolute;
+    top: -30px;
+}
+/*=================/FOOTER======================*/
+
+/*=================SLIDESHOW======================*/
+#slideshow{
+    //background-color: #343433;
+}
+#slideshow img{
+    width: 100%;
+}
+/*=================SLIDESHOW======================*/
